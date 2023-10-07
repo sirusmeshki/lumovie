@@ -46,7 +46,7 @@ const Platforms: FC = () => {
           );
         })}
       </div>
-      <Link href="/downloads">
+      <Link href="/download">
         <Button text="Go To Downloads" isCta />
       </Link>
     </section>
