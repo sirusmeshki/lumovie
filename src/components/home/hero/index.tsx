@@ -27,7 +27,7 @@ const image = {
 
 const Hero: FC = () => {
   return (
-    <section className="relative flex flex-col items-center gap-10 my-3 sm:my-4 md:my-6 xl:my-10">
+    <section className="relative flex flex-col items-center gap-10 my-5 sm:my-7 md:my-8 xl:my-10">
       <div className="mx-auto overflow-hidden text-center">
         <Title />
         <motion.p
