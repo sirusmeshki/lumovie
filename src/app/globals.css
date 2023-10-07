@@ -16,6 +16,11 @@
   font-size: 100%;
 }
 
+body,
+html {
+  overflow-x: hidden;
+}
+
 body {
   height: 100%;
   line-height: 1.5;

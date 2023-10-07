@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={PJS.className}>
-      <body className="relative overflow-x-hidden bg-background">
+      <body className="relative bg-background">
         <Header />
         <Suspense fallback={<Loading />}>{children}</Suspense>
         <Footer />
