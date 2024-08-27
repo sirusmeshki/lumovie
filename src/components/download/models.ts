@@ -2,6 +2,7 @@ export interface Devices {
   name: string;
   logo: string;
   info?: string;
+  href?: string | undefined
 }
 
 export interface Platforms {
